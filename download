@@ -1,0 +1,2 @@
+#!/bin/bash
+wget https://data.cms.gov/api/views/97k6-zzx3/rows.csv\?accessType\=DOWNLOAD -O hospital_charges.csv
