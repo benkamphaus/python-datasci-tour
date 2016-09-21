@@ -151,3 +151,36 @@ pandas philosophy
 * mutation produces a copy (except with `inplace=True`)
 * optimized in c or cython, so fast
 * indexes and columns are labeled
+
+---
+
+interactive demo!!!
+
+---
+
+## numpy
+
+Elevator pitch:
+
+NDArrays and fast linear algebra routines
+
+---
+
+When you use it:
+
+* implementing machine learning or data science methods from papers
+* feature engineering and transformation
+* data noramlization
+* interpolation and numerical computing
+
+You know, Matlab, IDL, APL, etc.
+
+---
+
+Typical numpy operations:
+
+* linear algebra operators: dot products, scaling, etc.
+* vectorized array function calls
+* reshaping, stacking, flattening
+* slicing, masking
+* more advanced: decompositions, factorization, matrix inversion/pseudo-inversion
