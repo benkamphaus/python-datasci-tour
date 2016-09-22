@@ -184,3 +184,89 @@ Typical numpy operations:
 * reshaping, stacking, flattening
 * slicing, masking
 * more advanced: decompositions, factorization, matrix inversion/pseudo-inversion
+
+---
+
+interactive demo!!!
+
+---
+
+## scikit-learn (sklearn)
+
+Elevator pitch:
+
+Your one stop machine learning shop.
+
+---
+
+When you use it:
+
+* test/training splits and cross-validation
+* preprocessing
+* dimensionality reduction
+* clustering
+
+---
+
+When you use it (cont):
+
+* feature engineering
+* learning/fitting
+* performance evaluation
+* hyperparameter search
+
+---
+
+Typical sklearn workflow:
+
+* initial preprocessing/io/munging from pandas + numpy
+* scaling and/or dimensionality reduction
+* split between training and hold-out test datasets
+
+---
+
+Typical sklearn workflow (cont):
+
+* initial assessment of methods w/training data
+    * out-of-fold accuracy assessed w/cross-validation
+* hyperparameter search for final model selection
+
+---
+
+interactive demo!!!
+
+---
+
+## Bonus material!
+
+---
+
+### TensorFlow
+
+---
+
+TensorFlow builds a data flow graph out of a mix of numpy idioms and neural network specific constructs.
+
+---
+
+### Keras
+
+---
+
+Keras wraps TensorFlow (and Theano, which is similar) with an sklearn like interface.
+
+---
+
+### XGBoost
+
+---
+
+XGBoost can be called in a manner similar to sklearn learning algorithms.
+
+---
+
+Or directly via a fully sklearn compatible wrapper.
+
+---
+
+Let's make sense of [something on Kaggle](https://www.kaggle.com/cbrogan/titanic/xgboost-example-python/code)!
